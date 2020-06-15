@@ -55,7 +55,7 @@ var sprite_number=10;
 var dn=0;
 var mathx=0;
 var mathy=0;
-var titlescreen=true;
+var titlescreen=false
 function setup() {
 frameRate(60);
 rectMode(CENTER);
