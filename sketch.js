@@ -1,5 +1,6 @@
 var  gameover=false;
 var swap;
+var c;
 var sprites=[
 200,
 150,
