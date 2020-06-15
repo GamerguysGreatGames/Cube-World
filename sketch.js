@@ -234,5 +234,5 @@ if (c[dn+4]=="up"){sprites[1]-=5}
 if (c[dn+4]=="down"){sprites[1]+=5}}}else{if (c[dn+4]=="up"){so();titlescreen=false;coins=0;gameover=false;}}
 }}
 dn+=5;}
- dn=0}}
+ dn=}}
 
