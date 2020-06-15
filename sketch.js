@@ -214,8 +214,7 @@ mouseY,
 1];
 vn=20;
 dn=0;
-if (mousePressed==true){
-hitc();}
+hitc();
 dn=0;
 vn=0;
 }
