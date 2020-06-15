@@ -214,7 +214,7 @@ mouseY,
 1];
 vn=20;
 dn=0;
-if(mouseIsPressed){
+if(mouseDown()==true){
 hitc();}
 dn=0;
 vn=0;
@@ -235,5 +235,8 @@ if (c[dn+4]=="down"){sprites[1]+=5}}}else{if (c[dn+4]=="up"){so();titlescreen=fa
 }}
 dn+=5;}
  dn=0;}
+function mouseDown(){
+return true
+}
 
 
