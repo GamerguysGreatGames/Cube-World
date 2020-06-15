@@ -47,7 +47,7 @@ var sprites=[
 20,
 20,
 "coin"];
-var time=1800
+var time=0
 var coins=0;
 var collider=true;
 var vn=0;
@@ -55,7 +55,7 @@ var sprite_number=10;
 var dn=0;
 var mathx=0;
 var mathy=0;
-var titlescreen=false
+var titlescreen=true
 function setup() {
 frameRate(60);
 rectMode(CENTER);
