@@ -60,7 +60,7 @@ function setup() {
 frameRate(60);
 rectMode(CENTER);
 textAlign(CENTER);
-createCanvas(400,625);
+createCanvas(1000,1000);
 }
 function so(){
 sprites=[
