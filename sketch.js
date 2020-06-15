@@ -214,7 +214,8 @@ mouseY,
 1];
 vn=20;
 dn=0;
-hitc();
+if(mouseIsPressed){
+hitc();}
 dn=0;
 vn=0;
 }
