@@ -47,7 +47,7 @@ var sprites=[
 20,
 20,
 "coin"];
-var time=0;
+var time=1800
 var coins=0;
 var collider=true;
 var vn=0;
