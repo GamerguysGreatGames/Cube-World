@@ -1,6 +1,5 @@
-var gameover=false;
+var  gameover=false;
 var swap;
-var c;
 var sprites=[
 200,
 150,
@@ -47,15 +46,15 @@ var sprites=[
 20,
 20,
 "coin"];
-var time=0
+var time=0;
 var coins=0;
 var collider=true;
-var vn=0;
+var  vn=0;
 var sprite_number=10;
 var dn=0;
 var mathx=0;
 var mathy=0;
-var titlescreen=true
+var titlescreen=true;
 function setup() {
 frameRate(60);
 rectMode(CENTER);
@@ -214,11 +213,11 @@ mouseY,
 1];
 vn=20;
 dn=0;
-if(mouseIsPressed){
-hitc();}
+hitc();
 dn=0;
 vn=0;
 }
+
 function hitc(){
 while(dn/5<6){
 mathx=Math.abs(c[vn]-c[dn]);
@@ -234,3 +233,13 @@ if (c[dn+4]=="down"){sprites[1]+=5}}}else{if (c[dn+4]=="up"){so();titlescreen=fa
 }}
 dn+=5;}
  dn=0;}
+
+
+
+
+
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
